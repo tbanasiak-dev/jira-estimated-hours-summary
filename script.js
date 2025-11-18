@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Jira Trans Time Estimate Summary
-// @namespace tbanasiak
+// @namespace team-bio
 // @version 0.1
 // @description  This adds a summary divided by the development/test estimaion on the bottom
 // @match https://jira.trans.eu/*
