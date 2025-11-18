@@ -1,4 +1,16 @@
-function calculateWorkload() {
+// ==UserScript==
+// @name Jira Time Estimate Summary
+// @namespace tbanasiak
+// @version 0.1
+// @description  This adds a summary divided by the development/test estimaion on the bottom
+// @match https://jira.trans.eu/*
+// @copyright 2025 Bio Team
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    function calculateWorkload() {
     document.querySelectorAll('.custom-jira-summary').forEach(el => el.remove());
 
     const sprintContainers = document.querySelectorAll(
@@ -74,3 +86,6 @@ function waitForTasks(callback) {
 }
 
 waitForTasks(() => calculateWorkload());
+})();
+
+
