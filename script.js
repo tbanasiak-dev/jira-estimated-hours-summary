@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Jira Time Estimate Summary
+// @name Jira Trans Time Estimate Summary
 // @namespace tbanasiak
 // @version 0.1
 // @description  This adds a summary divided by the development/test estimaion on the bottom
